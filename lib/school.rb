@@ -14,7 +14,7 @@ class School
   end
   
   def grade(grade)
-    roster.all? do |key, value|
+    roster. do |key, value|
       if key == grade
         value
       end
