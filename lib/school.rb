@@ -22,8 +22,10 @@ class School
   end 
   
   def alphabatically
+    new_hash = {}
     @roster.each do |key, value|
-      key
+      new_hash[key] = value.sort
+      new_hash
     end
   end
 end
