@@ -22,7 +22,7 @@ class School
   end 
   
   def alphabatically
-    @roster.sort_by do |key, value|
+    @roster.each do |key, value|
       key
     end
   end
