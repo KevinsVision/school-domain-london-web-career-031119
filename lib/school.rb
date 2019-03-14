@@ -21,7 +21,7 @@ class School
     end
   end 
   
-  def alphabatically
+  def sort
     new_hash = {}
     roster.each do |key, value|
       new_hash[key] = value.sort
